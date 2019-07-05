@@ -1,0 +1,23 @@
+{
+  "name": "material-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamworldSolutions/material-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamworldSolutions/material-styles/issues"
+  },
+  "homepage": "https://github.com/DreamworldSolutions/material-styles#readme",
+  "dependencies": {
+    "@polymer/font-roboto": "^3.0.2",
+    "lit-element": "^2.2.0"
+  }
+}
