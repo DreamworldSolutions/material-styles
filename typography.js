@@ -135,4 +135,9 @@ export const Typography = css`
     font-weight: 400;
     letter-spacing: 1.5px;
   }
+  .field {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+  }
 `;
