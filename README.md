@@ -1,9 +1,9 @@
-A Link buttn shared-styles
+A Link shared-styles
 
 
 ## Usage
 ```html
-import { linkStyle } from '@dw/material-styles/shared-styles.js';
+import { linkStyle } from '@dreamworld/material-styles/shared-styles.js';
 
 static get styles() {
 	return [
