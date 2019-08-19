@@ -13,12 +13,13 @@ import { css } from 'lit-element';
 export const linkStyle = css`
 	a {
 		text-decoration: none;
-	}
-	a, a.accent {
 		color: var(--dw-link-text-color, var(--accent-color));
 	}
+	a.accent {
+		color: var(--accent-color);
+	}
 	a.primary {
-		color:  var(--dw-link-text-color, var(--primary-color));
+		color:  var(--primary-color);
 	}
 	a.underline {
 		text-decoration: underline;

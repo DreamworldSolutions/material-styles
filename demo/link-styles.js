@@ -51,6 +51,9 @@ class linkStyles extends LitElement {
 
       <h4>Link with underline and primary color</h4>
       <a href="https://www.google.com/" class="underline primary">underline</a>
+
+      <h4>Link with underline and custom color</h4>
+      <a href="https://www.google.com/" class="underline customColor">underline</a>
     `;
   }
 }
