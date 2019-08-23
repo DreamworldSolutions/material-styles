@@ -18,6 +18,8 @@ export const ThemeStyle = css`
   --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
 
+  --mdc-theme-divider-on-light: rgba(0, 0, 0, 0.12);
+
   --dw-icon-color-active-on-light: var(--mdc-theme-text-primary-on-light);
   --dw-icon-color-on-light: var(--mdc-theme-text-secondary-on-light);
   --dw-icon-color-disabled-on-light: var(--mdc-theme-text-disabled-on-light);
@@ -38,6 +40,8 @@ export const ThemeStyle = css`
   --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.6);
   --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.38);
   --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.38);
+
+  --mdc-theme-divider-on-dark: rgba(255, 255, 255, 0.12);
 
   --dw-icon-color-active-on-light: var(--mdc-theme-text-primary-on-dark);
   --dw-icon-color-on-light: var(--mdc-theme-text-secondary-on-dark);
@@ -62,6 +66,8 @@ export const ThemeStyle = css`
   --mdc-theme-text-secondary: var(--mdc-theme-text-secondary-on-light);
   --mdc-theme-text-hint: var(--mdc-theme-text-hint-on-light);
   --mdc-theme-text-disabled: var(--mdc-theme-text-disabled-on-light);
+
+  --mdc-theme-divider: var(--mdc-theme-divider-on-light);
 
   --dw-icon-color-active: var(--dw-icon-color-active-on-light);
   --dw-icon-color: var(--dw-icon-color-on-light);
@@ -88,6 +94,8 @@ export const ThemeStyle = css`
   --mdc-theme-text-secondary: var(--mdc-theme-text-secondary-on-dark);
   --mdc-theme-text-hint: var(--mdc-theme-text-hint-on-dark);
   --mdc-theme-text-disabled: var(--mdc-theme-text-disabled-on-dark);
+
+  --mdc-theme-divider: var(--mdc-theme-divider-on-dark);
 
   --dw-icon-color-active: var(--dw-icon-color-active-on-dark);
   --dw-icon-color: var(--dw-icon-color-on-dark);
