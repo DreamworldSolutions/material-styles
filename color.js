@@ -1,20 +1,3 @@
-/**
-@license
-Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at
-http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
-http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
-found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
-part of the polymer project is also subject to an additional IP rights grant
-found at http://polymer.github.io/PATENTS.txt
-
-
-Typographic styles are provided matching the Material Design standard styles:
-http://www.google.com/design/spec/style/typography.html#typography-standard-styles
-Note that these are English/Latin centric styles. You may need to further adjust
-line heights and weights for CJK typesetting. See the notes in the Material
-Design typography section.
-*/
 import { css } from 'lit-element';
 export const color = css`
   :host {
@@ -294,15 +277,5 @@ export const color = css`
       --paper-blue-grey-700: #455a64;
       --paper-blue-grey-800: #37474f;
       --paper-blue-grey-900: #263238;
-      /* opacity for dark text on a light background */
-      --dark-divider-opacity: 0.12;
-      --dark-disabled-opacity: 0.38; /* or hint text or icon */
-      --dark-secondary-opacity: 0.54;
-      --dark-primary-opacity: 0.87;
-      /* opacity for light text on a dark background */
-      --light-divider-opacity: 0.12;
-      --light-disabled-opacity: 0.3; /* or hint text or icon */
-      --light-secondary-opacity: 0.7;
-      --light-primary-opacity: 1.0;
   }
 `;
