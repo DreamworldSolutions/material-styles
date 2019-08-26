@@ -2,7 +2,7 @@ import { css } from 'lit-element';
 
 export const ThemeStyle = css`
 :host {
-  /**Light theme values - END */
+  /**Light theme values - START */
   --mdc-theme-primary-on-light: #6200ee;
   --mdc-theme-secondary-on-light: #018786;
   --mdc-theme-background-on-light: #fff;
@@ -43,9 +43,9 @@ export const ThemeStyle = css`
 
   --mdc-theme-divider-on-dark: rgba(255, 255, 255, 0.12);
 
-  --dw-icon-color-active-on-light: var(--mdc-theme-text-primary-on-dark);
-  --dw-icon-color-on-light: var(--mdc-theme-text-secondary-on-dark);
-  --dw-icon-color-disabled-on-light: var(--mdc-theme-text-disabled-on-dark);
+  --dw-icon-color-active-on-dark: var(--mdc-theme-text-primary-on-dark);
+  --dw-icon-color-on-dark: var(--mdc-theme-text-secondary-on-dark);
+  --dw-icon-color-disabled-on-dark: var(--mdc-theme-text-disabled-on-dark);
   /** Dark theme values - END */
 
 
