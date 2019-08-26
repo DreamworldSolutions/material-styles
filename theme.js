@@ -58,8 +58,11 @@ export const ThemeStyle = css`
   --mdc-theme-error: var(--mdc-theme-error-on-light);
   --mdc-theme-on-primary: var(--mdc-theme-on-primary-on-light);
   --mdc-theme-on-secondary: var(--mdc-theme-on-secondary-on-light);
-  --mdc-theme-on-surface: var(--mdc-theme-on-surface-on-light);
   --mdc-theme-on-error: var(--mdc-theme-on-error-on-light);
+  
+  /** This actually never used direclty, instead --mdc-theme-text-* will be used. */
+  --mdc-theme-on-surface: var(--mdc-theme-on-surface-on-light);
+  
 
 
   --mdc-theme-text-primary: var(--mdc-theme-text-primary-on-light);
