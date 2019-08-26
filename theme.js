@@ -81,7 +81,7 @@ export const ThemeStyle = css`
   background-color: var(--mdc-theme-background-on-light);
 }
 
-:host[mdc-theme-dark] {
+:host[dark-theme] {
   --mdc-theme-primary: var(--mdc-theme-primary-on-dark);
   --mdc-theme-secondary: var(--mdc-theme-secondary-on-dark);
   --mdc-theme-background: var(--mdc-theme-background-on-dark);
