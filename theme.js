@@ -104,6 +104,18 @@ export const ThemeStyle = css`
   --dw-icon-color: var(--dw-icon-color-on-dark);
   --dw-icon-color-disabled: var(--dw-icon-color-disabled-on-dark);
 
+  /* surface overlay properties */
+  --dw-surface-overlay-color: var(--mdc-theme-on-surface);
+  --dw-surface-overlay-opacitiy-elevation-1: 0.05;
+  --dw-surface-overlay-opacitiy-elevation-2: 0.07;
+  --dw-surface-overlay-opacitiy-elevation-3: 0.08;
+  --dw-surface-overlay-opacitiy-elevation-4: 0.09;
+  --dw-surface-overlay-opacitiy-elevation-6: 0.11;
+  --dw-surface-overlay-opacitiy-elevation-8: 0.12;
+  --dw-surface-overlay-opacitiy-elevation-12: 0.14;
+  --dw-surface-overlay-opacitiy-elevation-16: 0.15;
+  --dw-surface-overlay-opacitiy-elevation-24: 0.16;
+
   background-color: var(--mdc-theme-background-on-dark);
 }
 
