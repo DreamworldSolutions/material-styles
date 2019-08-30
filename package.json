@@ -1,6 +1,6 @@
 {
-  "name": "@dw/material-styles",
-  "version": "1.0.4-SNAPSHOT",
+  "name": "@dreamworld/material-styles",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,11 @@
   "dependencies": {
     "@polymer/font-roboto": "^3.0.2",
     "lit-element": "^2.2.0"
+  },
+  "devDependencies": {
+    "semantic-release": "beta"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
