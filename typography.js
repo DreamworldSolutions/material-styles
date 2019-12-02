@@ -199,3 +199,5 @@ export const Typography = css`
   */
   
 `;
+
+export const typography = Typography;
