@@ -2,3 +2,5 @@ node_modules/
 /.project
 /.project~
 .history/
+/.settings/
+/package-lock.json
