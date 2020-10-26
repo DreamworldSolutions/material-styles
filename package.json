@@ -23,9 +23,7 @@
   "devDependencies": {
     "semantic-release": "17.0.8"
   },
-  "resolutions": {
-    "@semantic-release/npm": "5.2.0-beta.5"
-  },
+  "resolutions": {},
   "publishConfig": {
     "access": "public"
   },
