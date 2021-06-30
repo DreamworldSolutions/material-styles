@@ -59,6 +59,7 @@ export const headline5 = css`
   font-size: var(--headline5-font-size, 1.5rem);
   line-height: var(--headline5-line-height, 2rem);
   font-weight: var(--headline5-font-weight, 400);
+  letter-spacing: var(--headline5-letter-spacing, 0);
 `;
 
 export const headline6 = css`
@@ -77,6 +78,7 @@ export const subtitle1 = css`
   line-height: var(--subtitle1-line-height, 1.75rem);
   font-weight: var(--subtitle1-font-weight, 400);
   letter-spacing: var(--subtitle1-letter-spacing, 0.009375em);
+  text-transform: var(--subtitle1-text-transform, inherit);
 `;
 
 export const subtitle2 = css`
