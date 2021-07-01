@@ -8,7 +8,8 @@ properties will be set by the app based on it's theme.
 ## Usage
 
 1. Apply `ThemeStyle` to app-shell. And customize the css properties as needed. //TODO: Example
-2. For other style modules (e.g. `Typography`, `Link`), app should create it's own module by extending these modules. 
+2. `Typography`: It can't be used by extension(direct use in app whenever app require), to customize typography by language or by device Application Theme can override it's provided css properties. 
+3. For other style modules `Link`, app should create it's own module by extending these modules. 
 Application's module should be used in other elements of the app. These style modules shouldn't be directly used. This 
 way app can change/override a particular style easily in future, when needed.
 
