@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/DreamworldSolutions/material-styles#readme",
   "dependencies": {
-    "@polymer/font-roboto": "^3.0.2",
     "lit-element": "^2.2.0"
   },
   "devDependencies": {
