@@ -1,9 +1,7 @@
 import { css } from 'lit-element';
-import '@polymer/font-roboto/roboto.js';
-
 
 export const fontStyle = css`
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-family, Roboto, sans-serif);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 `;
