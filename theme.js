@@ -2,7 +2,7 @@ import { css } from 'lit-element';
 
 export const ThemeStyle = css`
 :host {
-  --mdc-theme-primary: ##02AFCD;
+  --mdc-theme-primary: #02AFCD;
   --mdc-theme-secondary: #FF4080;
   --mdc-theme-background: #FFFFFF;
   --mdc-theme-surface: #FFFFFF;
