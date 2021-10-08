@@ -74,5 +74,4 @@ export const ThemeStyle = css`
   --dw-surface-overlay-opacitiy-elevation-16: 0.15;
   --dw-surface-overlay-opacitiy-elevation-24: 0.16;
 }
-
 `;
