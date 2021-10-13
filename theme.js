@@ -12,7 +12,7 @@ export const ThemeStyle = css`
   --mdc-theme-on-surface: #000000;
   --mdc-theme-on-error: #FFFFFF;
   --mdc-theme-text-primary-on-background: rgba(0, 0, 0, 0.87);
-  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+  --mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.60);
   --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
@@ -43,7 +43,7 @@ export const ThemeStyle = css`
   --mdc-theme-on-surface: #FFFFFF;
   --mdc-theme-on-error: #000000;
   --mdc-theme-text-primary-on-background: rgba(255, 255, 255, 0.87);
-  --mdc-theme-text-secondary-on-background: rgba(255, 255, 255, 0.54);
+  --mdc-theme-text-secondary-on-background: rgba(255, 255, 255, 0.60);
   --mdc-theme-text-hint-on-background: rgba(255, 255, 255, 0.38);
   --mdc-theme-text-disabled-on-background: rgba(255, 255, 255, 0.38);
   --mdc-theme-text-icon-on-background: rgba(255, 255, 255, 0.38);
