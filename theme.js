@@ -16,20 +16,20 @@ export const ThemeStyle = css`
   --mdc-theme-text-hint-on-background: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-disabled-on-background: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-icon-on-background: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-primary-on-light: rgba(0, 0, 0, 0.87);
-  --mdc-theme-text-secondary-on-light: rgba(0, 0, 0, 0.6);
-  --mdc-theme-text-hint-on-light: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-disabled-on-light: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-icon-on-light: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-primary-on-dark: #FFFFFF;
-  --mdc-theme-text-secondary-on-dark: rgba(255, 255, 255, 0.74);
-  --mdc-theme-text-hint-on-dark: rgba(255, 255, 255, 0.5);
-  --mdc-theme-text-disabled-on-dark: rgba(255, 255, 255, 0.38);
-  --mdc-theme-text-icon-on-dark: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-primary-on-surface: rgba(0, 0, 0, 0.87);
+  --mdc-theme-text-secondary-on-surface: rgba(0, 0, 0, 0.6);
+  --mdc-theme-text-hint-on-surface: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-surfacev: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-surface: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-primary-on-primary: #FFFFFF;
+  --mdc-theme-text-secondary-on-primary: rgba(255, 255, 255, 0.74);
+  --mdc-theme-text-hint-on-primary: rgba(255, 255, 255, 0.5);
+  --mdc-theme-text-disabled-on-primary: rgba(255, 255, 255, 0.38);
+  --mdc-theme-text-icon-on-primary: rgba(255, 255, 255, 0.5);
 
-  --dw-icon-color-active: var(--mdc-theme-text-primary-on-light);
-  --dw-icon-color: var(--mdc-theme-text-secondary-on-light);
-  --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-light);
+  --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
+  --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
+  --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
 }
 
 :host([dark-theme]) {
@@ -47,20 +47,20 @@ export const ThemeStyle = css`
   --mdc-theme-text-hint-on-background: rgba(255, 255, 255, 0.38);
   --mdc-theme-text-disabled-on-background: rgba(255, 255, 255, 0.38);
   --mdc-theme-text-icon-on-background: rgba(255, 255, 255, 0.38);
-  --mdc-theme-text-primary-on-light: rgba(255, 255, 255, 0.87);
-  --mdc-theme-text-secondary-on-light: rgba(255, 255, 255, 0.6);
-  --mdc-theme-text-hint-on-light: rgba(255, 255, 255, 0.38);
-  --mdc-theme-text-disabled-on-light: rgba(255, 255, 255, 0.38);
-  --mdc-theme-text-icon-on-light: rgba(255, 255, 255, 0.38);
-  --mdc-theme-text-primary-on-dark: #000000;
-  --mdc-theme-text-secondary-on-dark: rgba(0, 0, 0, 0.74);
-  --mdc-theme-text-hint-on-dark: rgba(0, 0, 0, 0.5);
-  --mdc-theme-text-disabled-on-dark: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-icon-on-dark: rgba(0, 0, 0, 0.5);
+  --mdc-theme-text-primary-on-surface: rgba(255, 255, 255, 0.87);
+  --mdc-theme-text-secondary-on-surface: rgba(255, 255, 255, 0.6);
+  --mdc-theme-text-hint-on-surface: rgba(255, 255, 255, 0.38);
+  --mdc-theme-text-disabled-on-surface: rgba(255, 255, 255, 0.38);
+  --mdc-theme-text-icon-on-surface: rgba(255, 255, 255, 0.38);
+  --mdc-theme-text-primary-on-primary: #000000;
+  --mdc-theme-text-secondary-on-primary: rgba(0, 0, 0, 0.74);
+  --mdc-theme-text-hint-on-primary: rgba(0, 0, 0, 0.5);
+  --mdc-theme-text-disabled-on-primary: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-icon-on-primary: rgba(0, 0, 0, 0.5);
 
-  --dw-icon-color-active: var(--mdc-theme-text-primary-on-light);
-  --dw-icon-color: var(--mdc-theme-text-secondary-on-light);
-  --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-light);
+  --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
+  --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
+  --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
   
   /* surface overlay properties */
   --dw-surface-overlay-color: var(--mdc-theme-on-surface);
