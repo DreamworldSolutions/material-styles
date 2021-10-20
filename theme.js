@@ -19,7 +19,7 @@ export const ThemeStyle = css`
   --mdc-theme-text-primary-on-surface: rgba(0, 0, 0, 0.87);
   --mdc-theme-text-secondary-on-surface: rgba(0, 0, 0, 0.6);
   --mdc-theme-text-hint-on-surface: rgba(0, 0, 0, 0.38);
-  --mdc-theme-text-disabled-on-surfacev: rgba(0, 0, 0, 0.38);
+  --mdc-theme-text-disabled-on-surface: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-icon-on-surface: rgba(0, 0, 0, 0.38);
   --mdc-theme-text-primary-on-primary: #FFFFFF;
   --mdc-theme-text-secondary-on-primary: rgba(255, 255, 255, 0.74);
