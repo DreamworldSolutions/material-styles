@@ -30,6 +30,7 @@ export const ThemeStyle = css`
   --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
   --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
   --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
+  --dw-tooltip-background-color: #666666;
 }
 
 :host([dark-theme]) {
@@ -61,6 +62,7 @@ export const ThemeStyle = css`
   --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
   --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
   --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
+  --dw-tooltip-background-color: #aeaeae;
   
   /* surface overlay properties */
   --dw-surface-overlay-color: var(--mdc-theme-on-surface);
