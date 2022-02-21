@@ -31,6 +31,8 @@ export const ThemeStyle = css`
   --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
   --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
   --dw-tooltip-background-color: #666666;
+  --dw-surface-invert-color: var(--mdc-theme-text-primary-on-background);
+  --dw-on-surface-invert-color: rgba(255, 255, 255, 0.87);
 }
 
 :host([dark-theme]) {
@@ -63,7 +65,9 @@ export const ThemeStyle = css`
   --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
   --dw-icon-color-disabled: var(--mdc-theme-text-disabled-on-surface);
   --dw-tooltip-background-color: #E4E4E4;
-  
+  --dw-surface-invert-color: var(--mdc-theme-text-primary-on-background);
+  --dw-on-surface-invert-color: rgba(0, 0, 0, 0.87);
+
   /* surface overlay properties */
   --dw-surface-overlay-color: var(--mdc-theme-on-surface);
   --dw-surface-overlay-opacitiy-elevation-1: 0.05;
