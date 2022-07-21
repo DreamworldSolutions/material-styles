@@ -38,7 +38,7 @@ export const ThemeStyle = css`
   /* surface overlay color*/
   --mdc-theme-on-surface-overlay-opacity-hover: 0.04;
   --mdc-theme-on-primary-overlay-opacity-hover: 0.08;
-  --mdc-theme-on-secondary-overlay-opacity-hover: 0.0;
+  --mdc-theme-on-secondary-overlay-opacity-hover: 0.08;
   --mdc-theme-on-error-overlay-opacity-hover: 0.08;
 
   --mdc-theme-on-surface-overlay-opacity-focus: 0.12;
@@ -46,7 +46,7 @@ export const ThemeStyle = css`
   --mdc-theme-on-secondary-overlay-opacity-focus: 0.24;
   --mdc-theme-on-error-overlay-opacity-focus: 0.24;
 
-  --mdc-theme-on-surface-overlay-opacity-selected: 0.8;
+  --mdc-theme-on-surface-overlay-opacity-selected: 0.08;
   --mdc-theme-on-primary-overlay-opacity-selected: 0.16;
   --mdc-theme-on-secondary-overlay-opacity-selected: 0.16;
   --mdc-theme-on-error-overlay-opacity-selected: 0.16;
