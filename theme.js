@@ -34,6 +34,27 @@ export const ThemeStyle = css`
   --dw-tooltip-background-color: #666666;
   --dw-surface-invert-color: var(--mdc-theme-text-primary-on-background);
   --dw-on-surface-invert-color: rgba(255, 255, 255, 0.87);
+
+  /* surface overlay color*/
+  --mdc-theme-on-surface-overlay-opacity-hover: rgba(0, 0, 0, 0.04);
+  --mdc-theme-on-primary-overlay-opacity-hover: rgba(0, 0, 0, 0.08);
+  --mdc-theme-on-secondary-overlay-opacity-hover: rgba(0, 0, 0, 0.08);
+  --mdc-theme-on-error-overlay-opacity-hover: rgba(0, 0, 0, 0.08);
+
+  --mdc-theme-on-surface-overlay-opacity-focus: rgba(0, 0, 0, 0.12);
+  --mdc-theme-on-primary-overlay-opacity-focus: rgba(0, 0, 0, 0.24);
+  --mdc-theme-on-secondary-overlay-opacity-focus: rgba(0, 0, 0, 0.24);
+  --mdc-theme-on-error-overlay-opacity-focus: rgba(0, 0, 0, 0.24);
+
+  --mdc-theme-on-surface-overlay-opacity-selected: rgba(var(--mdc-theme-primary), 0.8);
+  --mdc-theme-on-primary-overlay-opacity-selected: rgba(var(--mdc-theme-surface), 0.16);
+  --mdc-theme-on-secondary-overlay-opacity-selected: rgba(var(--mdc-theme-surface), 0.16);
+  --mdc-theme-on-error-overlay-opacity-selected: rgba(var(--mdc-theme-surface), 0.16);
+
+  --mdc-theme-on-surface-overlay-opacity-activated: rgba(var(--mdc-theme-primary), 0.12);
+  --mdc-theme-on-primary-overlay-opacity-activated: rgba(var(--mdc-theme-primary), 0.24);
+  --mdc-theme-on-secondary-overlay-opacity-activated: rgba(var(--mdc-theme-primary), 0.24);
+  --mdc-theme-on-error-overlay-opacity-activated: rgba(var(--mdc-theme-primary), 0.24);
 }
 
 :host([dark-theme]) {
