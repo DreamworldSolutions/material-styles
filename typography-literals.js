@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from "lit-element";
 
 export const fontStyle = css`
   font-family: var(--font-family, Roboto, sans-serif);
@@ -87,7 +87,6 @@ export const subtitle2 = css`
   font-weight: var(--subtitle2-font-weight, 500);
   letter-spacing: var(--subtitle2-letter-spacing, 0.0071428571em);
 `;
-
 
 export const body1 = css`
   ${fontStyle};
