@@ -55,6 +55,8 @@ export const ThemeStyle = css`
   --mdc-theme-on-primary-overlay-opacity-activated: 0.24;
   --mdc-theme-on-secondary-overlay-opacity-activated: 0.24;
   --mdc-theme-on-error-overlay-opacity-activated: 0.24;
+
+  --mdc-ripple-press-opacity: 0.16;
 }
 
 :host([dark-theme]) {
