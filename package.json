@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DreamworldSolutions/material-styles#readme",
   "dependencies": {
-    "lit-element": "^2.2.0"
+    "lit": "^2.4.0"
   },
   "devDependencies": {
     "semantic-release": "17.0.8"

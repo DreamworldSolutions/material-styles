@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 export const color = css`
   :host {
        /* Material Design color palette for Google products */

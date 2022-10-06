@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 
 export const fontStyle = css`
   font-family: var(--font-family, Roboto, sans-serif);

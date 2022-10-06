@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from 'lit';
 import * as literals from './typography-literals';
 
 export const Typography = css`
