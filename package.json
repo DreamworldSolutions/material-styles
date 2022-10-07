@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DreamworldSolutions/material-styles#readme",
   "dependencies": {
-    "lit": "^2.4.0"
+    "@dreamworld/pwa-helpers": "^1.13.1"
   },
   "devDependencies": {
     "semantic-release": "17.0.8"

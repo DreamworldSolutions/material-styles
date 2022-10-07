@@ -1,4 +1,4 @@
-import { css } from 'lit';
+import {  css } from '@dreamworld/pwa-helpers/lit.js';
 
 export const LinkStyle = css`
     a {

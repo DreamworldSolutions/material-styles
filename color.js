@@ -1,4 +1,4 @@
-import { css } from 'lit';
+import {  css } from '@dreamworld/pwa-helpers/lit.js';
 export const color = css`
   :host {
        /* Material Design color palette for Google products */
