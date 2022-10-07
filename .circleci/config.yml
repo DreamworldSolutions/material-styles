@@ -42,8 +42,8 @@ jobs:
       - image: circleci/node:14
     steps:
       - checkout
-      - run: yarn install --production=true --flat --non-ineractive
-      - run: yarn install --production=false --non-interactive
+      - run: yarn install --non-ineractive
+      - run: yarn install --non-interactive
       - run:
           name: Deploy
           command: |
