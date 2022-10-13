@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { css } from '@dreamworld/pwa-helpers/lit.js';
 
 export const fontStyle = css`
   font-family: var(--font-family, Roboto, sans-serif);
