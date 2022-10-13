@@ -1,4 +1,4 @@
-import {  css } from '@dreamworld/pwa-helpers/lit.js';
+import { css } from '@dreamworld/pwa-helpers/lit.js';
 
 export const Shadow = css`
 :host{

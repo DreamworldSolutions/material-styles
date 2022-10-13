@@ -1,4 +1,4 @@
-import {  css } from '@dreamworld/pwa-helpers/lit.js';
+import { css } from '@dreamworld/pwa-helpers/lit.js';
 import * as literals from './typography-literals';
 
 export const Typography = css`
