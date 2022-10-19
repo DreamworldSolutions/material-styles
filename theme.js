@@ -27,6 +27,7 @@ export const ThemeStyle = css`
     --mdc-theme-text-disabled-on-primary: rgba(255, 255, 255, 0.38);
     --mdc-theme-text-icon-on-primary: rgba(255, 255, 255, 0.5);
     --mdc-theme-primary-invert-color: #82dff3;
+    --mdc-theme-divider-color: rgba(0, 0, 0, 0.12);
 
     --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
     --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
@@ -85,6 +86,7 @@ export const ThemeStyle = css`
     --mdc-theme-text-disabled-on-primary: rgba(0, 0, 0, 0.38);
     --mdc-theme-text-icon-on-primary: rgba(0, 0, 0, 0.5);
     --mdc-theme-primary-invert-color: #02afcd;
+    --mdc-theme-divider-color: rgba(255, 255, 255, 0.12);
 
     --dw-icon-color-active: var(--mdc-theme-text-primary-on-surface);
     --dw-icon-color: var(--mdc-theme-text-secondary-on-surface);
