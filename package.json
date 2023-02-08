@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.34",
-    "semantic-release": "17.0.8"
+    "semantic-release": "19.0.3"
   },
   "resolutions": {},
   "publishConfig": {
