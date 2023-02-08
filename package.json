@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "",
   "main": "theme.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "wds --node-resolve --app-index demo/index.html --open --watch"
