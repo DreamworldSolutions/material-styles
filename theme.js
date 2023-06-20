@@ -86,6 +86,7 @@ export const ThemeStyle = css`
     --mdc-theme-text-hint-on-primary: rgba(0, 0, 0, 0.5);
     --mdc-theme-text-disabled-on-primary: rgba(0, 0, 0, 0.38);
     --mdc-theme-text-icon-on-primary: rgba(0, 0, 0, 0.5);
+    --mdc-theme-text-warning: #FFCD80;
     --mdc-theme-primary-invert-color: #02afcd;
     --mdc-theme-divider-color: rgba(255, 255, 255, 0.12);
 
