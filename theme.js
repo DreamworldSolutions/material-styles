@@ -53,7 +53,7 @@ export const ThemeStyle = css`
     --mdc-theme-on-secondary-overlay-opacity-selected: 0.16;
     --mdc-theme-on-error-overlay-opacity-selected: 0.16;
 
-    --mdc-theme-on-surface-overlay-opacity-activated: 0.12;
+    --mdc-theme-on-surface-overlay-opacity-activated: 0.08;
     --mdc-theme-on-primary-overlay-opacity-activated: 0.24;
     --mdc-theme-on-secondary-overlay-opacity-activated: 0.24;
     --mdc-theme-on-error-overlay-opacity-activated: 0.24;
