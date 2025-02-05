@@ -69,6 +69,15 @@ export const headline6 = css`
   letter-spacing: var(--headline6-letter-spacing, 0.0125em);
 `;
 
+export const headline7 = css`
+  ${fontStyle};
+  ${textStyle1};
+  font-size: var(--headline7-font-size, 1.15rem);
+  line-height: var(--headline7-line-height, 1.5rem);
+  font-weight: var(--headline7-font-weight, 500);
+  letter-spacing: var(--headline7-letter-spacing, 0.009em);
+`;
+
 export const subtitle1 = css`
   ${fontStyle};
   ${textStyle1};
