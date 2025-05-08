@@ -1,7 +1,8 @@
 import { css } from '@dreamworld/pwa-helpers/lit.js';
 
 export const ThemeStyle = css`
-  :host {
+  :host,
+  :host([light-theme]) {
     --mdc-theme-primary: #02afcd;
     --mdc-theme-secondary: #ff4080;
     --mdc-theme-background: #ffffff;
