@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/DreamworldSolutions/material-styles#readme",
   "dependencies": {
-    "@dreamworld/pwa-helpers": "^1.13.1"
+    "@dreamworld/pwa-helpers": "^3.0.2"
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.34",
